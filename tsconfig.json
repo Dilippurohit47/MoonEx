@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ESNext", // or "ES2020", depending on your project needs
+      "lib": ["DOM", "ESNext"], // For browser and modern ES features
+      "jsx": "react-jsx", // Enable JSX support
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "baseUrl": ".", // Base directory for resolving non-relative module names
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "strict": true, // Enable strict type-checking options
+      "esModuleInterop": true, // Ensure compatibility with CommonJS modules
+      "skipLibCheck": true // Skip type-checking of declaration files
+    }
+  }
+  
