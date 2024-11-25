@@ -2,7 +2,8 @@
 const Table = () => {
   return (
     <div className=" rounded-2xl h-[75vh] relative w-full mt-8 bg-[#0D1B28] p-10 ">
-      <div className="absolute top-[5rem] left-[5rem] h-[50rem] w-[50rem] rounded-full bg-[radial-gradient(ellipse_at_center,_rgba(255,255,0,0.1)_0%,_rgba(255,255,255,0)_70%)]"></div>
+<div className="absolute top-[5rem] left-[5rem] h-[50rem] w-[50rem] rounded-full bg-[radial-gradient(ellipse_at_center,_rgba(255,255,100,0.1)_0%,_rgba(255,255,120,0)_70%)]"></div>
+
 
       <div className="flex text-[2rem]  items-center justify-between">
         {/* First colimn */}

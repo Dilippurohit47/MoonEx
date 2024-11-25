@@ -10,9 +10,9 @@ const Footer = () => {
         <div className="flex gap-20">
           {Links.map((item, index) => (
             <a
-              className="text-white text-[1.2rem] capitalize font-medium"
+              className="text-white text-[1.2rem] capitalize font-medium cursor-pointer hover:text-yellow-500 transition-all ease-in-out duration-200"
               key={index}
-              href=""
+              href="#"
             >
               {item}
             </a>
@@ -23,10 +23,18 @@ const Footer = () => {
         <button className="py-3 px-7 font-bold text-white text-3xl">
           Contact <span className="text-yellow-500">Us</span>
         </button>
-        <div className=" flex gap-10 justify-center items-center text-white">
-          <BsMessenger size={30} />
-          <FaReddit size={30} />
-          <PiBirdFill size={30} />
+        <div className="  flex gap-10 justify-center items-center text-white">
+          <a href="#">
+            <BsMessenger size={30} />
+          </a>
+          <a href="#">
+            {" "}
+            <FaReddit size={30} />{" "}
+          </a>
+          <a href="#">
+            {" "}
+            <PiBirdFill size={30} />
+          </a>
         </div>
       </div>
     </div>

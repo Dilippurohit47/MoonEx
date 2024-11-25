@@ -7,6 +7,7 @@ import {
 const FaqSection = () => {
   return (
     <div className=" mt-52  flex justify-center ">
+      <div className="absolute top-[80rem] -left-[25rem]  h-[50rem] w-[50rem] rounded-full bg-[radial-gradient(ellipse_at_center,_rgba(255,255,100,0.1)_0%,_rgba(255,255,120,0)_70%)] " ></div>
       <div className="w-3/4 h-[60vh] bg-[#0C1B28] rounded-lg  ">
         <h1 className="text-[3rem] text-[#F9D423]  text-center   font-bold  py-6">
           FAQS
@@ -19,7 +20,7 @@ const FaqSection = () => {
             <AccordionTrigger className="text-[1.2rem] px-12 font-medium hover:no-underline ">
               Is it accessible?
             </AccordionTrigger>
-            <AccordionContent className="text-[#BAB8B8]   px-12 text-[0.9rem]">
+            <AccordionContent className="text-[#BAB8B8]   px-12 text-[1rem]">
               Yes. It adheres to the WAI-ARIA design pattern.
             </AccordionContent>
           </AccordionItem>
@@ -30,7 +31,7 @@ const FaqSection = () => {
             <AccordionTrigger className="text-[1.2rem] px-12 font-medium hover:no-underline ">
               How do I get rewards in tokens or ETH when I refer buyers?
             </AccordionTrigger>
-            <AccordionContent className="text-[#BAB8B8]   px-12 text-[0.9rem]">
+            <AccordionContent className="text-[#BAB8B8]   px-12 text-[1rem]">
               How do I get rewards in tokens or ETH when I refer buyers?
             </AccordionContent>
           </AccordionItem>
@@ -41,7 +42,7 @@ const FaqSection = () => {
             <AccordionTrigger className="text-[1.2rem] px-12 font-medium hover:no-underline ">
               How do I get a referral Code?
             </AccordionTrigger>
-            <AccordionContent className="text-[#BAB8B8]   px-12 text-[0.9rem]">
+            <AccordionContent className="text-[#BAB8B8]   px-12 text-[1rem]">
               How do I get a referral Code?
             </AccordionContent>
           </AccordionItem>

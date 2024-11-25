@@ -3,15 +3,15 @@ const Links = ["home", "About us", "Roadmap", "FAQ", "Contact Us"];
 
 const Navbar = () => {
   return (
-    <div className="py-11 flex   items-center  justify-between w-full px-[5.5rem]">
+    <div className="py-11 flex z-40   items-center   justify-between w-full px-[5.5rem]">
       <div className="flex items-center  gap-28 w-3/4">
         <img src="/logo.png" alt="logo" />
         <div className="flex gap-20">
           {Links.map((item, index) => (
             <a
-              className="text-white text-[1.2rem] capitalize font-medium"
+              className="text-white text-[1.2rem] capitalize font-medium cursor-pointer hover:text-yellow-500 transition-all ease-in-out duration-200"
               key={index}
-              href=""
+              href="#"
             >
               {item}
             </a>
