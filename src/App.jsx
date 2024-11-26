@@ -4,7 +4,7 @@ import SecondPage from "./pages/SecondPage";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="  relative bg-[#0A1825]">
+    <div className="  relative bg-[#0A1825] overflow-hidden">
       <img
         src="/bg-img.png"
         alt="Background"
